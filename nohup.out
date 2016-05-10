@@ -1,0 +1,158 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 10, 2016 - 22:14:22
+Django version 1.9.5, using settings 'Shadowsocks_Website.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Not Found: /
+[10/May/2016 22:14:47] "GET / HTTP/1.1" 404 2044
+Not Found: /
+[10/May/2016 22:14:47] "GET / HTTP/1.1" 404 2044
+Not Found: /
+[10/May/2016 22:14:48] "GET / HTTP/1.1" 404 2044
+Not Found: /
+[10/May/2016 22:14:48] "GET / HTTP/1.1" 404 2044
+Not Found: /
+[10/May/2016 22:14:48] "GET / HTTP/1.1" 404 2044
+Not Found: /
+[10/May/2016 22:14:48] "GET / HTTP/1.1" 404 2044
+Not Found: /
+[10/May/2016 22:14:48] "GET / HTTP/1.1" 404 2044
+Not Found: /
+[10/May/2016 22:14:48] "GET / HTTP/1.1" 404 2044
+Not Found: /
+[10/May/2016 22:14:49] "GET / HTTP/1.1" 404 2044
+Not Found: /
+[10/May/2016 22:14:49] "GET / HTTP/1.1" 404 2044
+Not Found: /
+[10/May/2016 22:14:49] "GET / HTTP/1.1" 404 2044
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 10, 2016 - 22:14:43
+Django version 1.9.5, using settings 'Shadowsocks_Website.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[10/May/2016 22:15:44] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:44] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:44] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:44] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:44] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:44] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:45] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:45] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:45] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:45] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:45] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:46] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:46] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:46] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:46] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:46] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:47] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:47] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:47] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:47] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:48] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:48] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:48] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:48] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:48] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:48] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:48] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:15:48] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:15:48] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:15:48] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:15:48] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:15:48] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 10, 2016 - 22:15:43
+Django version 1.9.5, using settings 'Shadowsocks_Website.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[10/May/2016 22:17:47] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:17:47] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:17:47] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:17:47] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:17:47] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/May/2016 22:17:48] "GET / HTTP/1.1" 200 2739
+[10/May/2016 22:17:48] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/May/2016 22:17:48] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[10/May/2016 22:17:48] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[10/May/2016 22:17:48] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[10/May/2016 22:17:48] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 10, 2016 - 22:17:44
+Django version 1.9.5, using settings 'Shadowsocks_Website.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.

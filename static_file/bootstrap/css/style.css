@@ -1,0 +1,13 @@
+.no-margin
+{
+	margin: 0px;
+}
+
+.no-padding
+{
+	padding: 0px
+}
+
+.center{
+    vertical-align: middle;
+}
