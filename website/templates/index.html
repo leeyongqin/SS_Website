@@ -1,4 +1,5 @@
 {% extends 'base_html.html' %}
+{% load staticfiles %}
 {% block title %}
    Shadowsocok | {{ block.super }}
 {% endblock title%}
@@ -6,23 +7,33 @@
     {{ block.super }}
     <div class="container" xmlns="http://www.w3.org/1999/html">
         <div class="row">
-            <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                 <div class="jumbotron" align="center" style="background-color: #DBDBDB">
                   <h2>可能是目前最快的Shadowsocks</h2></br>
                   <p>美国/日本 多条国际线路任意选择，高速网路，总有一条线路适合您！</p>
                     <p>5元/月，50元/年，超大流量，支持UDP转发，支持多设备同时使用。</p>
                     <p>支持FinalSpeed双向加速，小水管也能流畅观看YouTube 720P</p></br>
                         <p align="right">
-                            <a class="btn btn-primary btn-lg" style="margin-left: 10px; margin-right: 10px" href="#" role="button" data-toggle="modal" data-target="#免费试用">免费试用</a>
-                            <a class="btn btn-success btn-lg" style="margin-left: 10px; margin-right: 10px" href="#" role="button" data-toggle="modal" data-target="#购买套餐">购买套餐</a>
-                            <a class="btn btn-warning btn-lg" style="margin-left: 10px; margin-right: 10px" href="#" role="button" data-toggle="modal" data-target="#什么是SS">什么是SS</a>
+                            <a class="btn btn-primary btn-lg" style="margin-left: 10px; margin-right: 10px" href="#" role="button" data-toggle="modal" data-target="#free_use">免费试用</a>
+                            <a class="btn btn-success btn-lg" style="margin-left: 10px; margin-right: 10px" href="#" role="button" >购买套餐</a>
+                            <a class="btn btn-warning btn-lg" style="margin-left: 10px; margin-right: 10px" href="#" role="button" data-toggle="modal" data-target="#what_is_ss">什么是SS</a>
                         </p>
                 </div>
+                <footer class="panel-footer" style="background-color: transparent">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p align="center"> <small>© 2016 Wall-Rose, all rights reserved. |
+                                <a href="http://www.12377.cn/">中国互联网举报中心</a>
+                                电话：12377 |
+                            <a href="#">关于我们</a> | <a href=mailto:822284070@qq.com>联系我们</a></small></p>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </div>
 
         <!-- 免费试用Modal -->
-        <div class="modal fade" id="免费试用" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal fade" id="free_use" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -30,55 +41,54 @@
                     <h4 class="modal-title" id="myModalLabel">免费试用</h4>
                   </div>
                   <div class="modal-body">
-                    <p>购买之前可以先免费试用，试用时间从申请开始到第二天凌晨1点。</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
+                    <p>赶快扫描下方二维码，关注我们的微信公众号 <strong style="color: blue">罗塞之墙</strong>，联系小小编索取免费帐号吧</p>
+                      <div class="row">
+                          <div align="center">
+                              <img src="{% static "img/qrcode_for_gh_2c53aa3583d8_258.jpg" %}" alt="qrcode"/>
+                          </div>
 
-        <!-- 购买套餐Modal -->
-        <div class="modal fade" id="购买套餐" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">免费试用</h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>购买之前可以先免费试用，试用时间从申请开始到第二天凌晨1点。</p>
+                      </div>
+
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">关闭</button>
                   </div>
                 </div>
               </div>
             </div>
 
         <!-- 什么是SS Modal -->
-        <div class="modal fade" id="什么是SS" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal fade" id="what_is_ss" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">免费试用</h4>
+                    <h4 class="modal-title" id="myModalLabel">什么是Shadowsocks？</h4>
                   </div>
                   <div class="modal-body">
                     <p>Shadowsocks（中文名称：影梭）是使用Python等语言开发的、基于Apache许可证开源的代理软件。
                         Shadowsocks使用socks5代理，用于保护网络流量。
                         在中国大陆被广泛用于突破防火长城（GFW），以浏览被封锁的内容。</p>
-                    <h4>运行原理</h4>
+                    <h4><strong>运行原理</strong></h4>
                     <p>Shadowsocks的运行原理与其他代理工具基本相同，使用特定的中转服务器完成数据传输。</p>
                     <p>在服务器端部署完成后，用户需要按照指定的密码、加密方式和端口使用客户端软件与其连接。
                         在成功连接到服务器后，客户端会在用户的电脑上构建一个本地socks5代理。浏览网络时，网络流量会被分到本地socks5代理，
                         客户端将其加密之后发送到服务器，服务器以同样的加密方式将流量回传给客户端，以此实现代理上网。</p>
+                    <h4><strong>特点</strong></h4>
+                    <p>
+                        <ul>
+                            <li>Shadowsocks使用自行设计的协议进行加密通信。加密算法有AES、Blowfish、IDEA、RC4等，除创建TCP连接外无需握手，每次请求只转发一个连接，因此使用起来网速较快，在移动设备上也比较省电。</li>
+                            <li>所有的流量都经过算法加密，允许自行选择算法，所以比较安全。</li>
+                            <li>Shadowsocks通过异步I/O和事件驱动程序运行，响应速度快。</li>
+                            <li>客户端覆盖多个主流操作系统和平台，包括Windows，OS X，Android和iOS系统和路由器（OpenWrt）等。</li>
+                            <li>专为移动设备和无线网络优化。</li>
+                        </ul>
+
+                    </p>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary">更多</button>
                   </div>
                 </div>
               </div>

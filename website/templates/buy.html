@@ -1,0 +1,21 @@
+{% extends 'base_html.html' %}
+{% load staticfiles %}
+{% block title %}
+   购买套餐 | {{ block.super }}
+{% endblock title%}
+{% block body %}
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $("li#buy_button").addClass("active");
+    })
+    </script>
+    {{ block.super }}
+    <div class="container" xmlns="http://www.w3.org/1999/html">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
