@@ -23,37 +23,49 @@
     <![endif]-->
   </head>
   <body>
-    {% block body %}
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0">
-                    <nav class="navbar navbar-default" style="background-color: transparent">
-                        <div class="container-fluid">
-                            <!-- Brand and toggle get grouped for better mobile display -->
-                            <div class="navbar-header">
-                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                              </button>
-                              <a class="navbar-brand" href="{% url "website:index" %}"><img src="{% static "img/shadowsocks.jpg" %}" width="40px" height="40px"></a>
-                            </div>
 
-                            <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                              <ul class="nav navbar-nav navbar-right">
-                                <li><a href="{% url "website:index" %}" >Home <span class="sr-only">(current)</span></a></li>
-                                <li id="buy_button"><a href="{% url "website:buy" %}">套餐详情</a></li>
-                                  <li id="archive_button"><a href="{% url "website:archive" %}">使用教程</a></li>
-                                  <li id="download_button"><a href="{% url "website:download" %}">软件下载</a></li>
-                              </ul>
-                            </div><!-- /.navbar-collapse -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0">
+                <nav class="navbar navbar-default" style="background-color: transparent">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand" href="{% url "website:index" %}">罗塞之墙</a>
                         </div>
-                    </nav>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav navbar-right">
+                            <li><a href="{% url "website:index" %}" >Home <span class="sr-only">(current)</span></a></li>
+                            <li id="buy_button"><a href="{% url "website:buy" %}">套餐详情</a></li>
+                              <li id="archive_button"><a href="{% url "website:archive" %}">使用教程</a></li>
+                              <li id="download_button"><a href="{% url "website:download" %}">软件下载</a></li>
+                          </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div>
+                </nav>
+                {% block body %}
+                {% endblock body%}
+                <footer class="panel-footer" style="background-color: transparent">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p align="center"> <small>© 2016 Wall-Rose, all rights reserved. |
+                            <a href="http://www.12377.cn/">中国互联网举报中心</a>
+                            电话：12377 |
+                        <a href="#">关于我们</a> | <a href=mailto:822284070@qq.com>联系我们</a></small></p>
+                    </div>
                 </div>
+            </footer>
             </div>
         </div>
-    {% endblock body%}
+    </div>
+
   </body>
 </html>

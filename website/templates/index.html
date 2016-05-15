@@ -5,32 +5,17 @@
 {% endblock title%}
 {% block body %}
     {{ block.super }}
-    <div class="container" xmlns="http://www.w3.org/1999/html">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-                <div class="jumbotron" align="center" style="background-color: #DBDBDB">
+    <div class="jumbotron" align="center" style="background-color: #DBDBDB">
                   <h2>可能是目前最快的Shadowsocks</h2></br>
                   <p>美国/日本 多条国际线路任意选择，高速网路，总有一条线路适合您！</p>
                     <p>5元/月，50元/年，超大流量，支持UDP转发，支持多设备同时使用。</p>
                     <p>支持FinalSpeed双向加速，小水管也能流畅观看YouTube 720P</p></br>
                         <p align="right">
                             <a class="btn btn-primary btn-lg" style="margin-left: 10px; margin-right: 10px" href="#" role="button" data-toggle="modal" data-target="#free_use">免费试用</a>
-                            <a class="btn btn-success btn-lg" style="margin-left: 10px; margin-right: 10px" href="#" role="button" >购买套餐</a>
+                            <a class="btn btn-success btn-lg" style="margin-left: 10px; margin-right: 10px" href="{% url 'website:buy' %}" role="button" >购买套餐</a>
                             <a class="btn btn-warning btn-lg" style="margin-left: 10px; margin-right: 10px" href="#" role="button" data-toggle="modal" data-target="#what_is_ss">什么是SS</a>
                         </p>
                 </div>
-                <footer class="panel-footer" style="background-color: transparent">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p align="center"> <small>© 2016 Wall-Rose, all rights reserved. |
-                                <a href="http://www.12377.cn/">中国互联网举报中心</a>
-                                电话：12377 |
-                            <a href="#">关于我们</a> | <a href=mailto:822284070@qq.com>联系我们</a></small></p>
-                        </div>
-                    </div>
-                </footer>
-            </div>
-        </div>
 
         <!-- 免费试用Modal -->
         <div class="modal fade" id="free_use" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -88,7 +73,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">关闭</button>
-                    <button type="button" class="btn btn-primary">更多</button>
+                    <a href="{% url 'website:archive' %}"><button type="button" class="btn btn-primary" >更多</button></a>
                   </div>
                 </div>
               </div>
