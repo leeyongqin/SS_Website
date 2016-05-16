@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Shadowsocks_Website.wsgi.application'
+WSGI_APPLICATION = 'django_wsgi.application'
 
 
 # Database
